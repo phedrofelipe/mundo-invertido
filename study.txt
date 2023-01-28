@@ -1,0 +1,87 @@
+<PROJETO DATA: 10/09/2022 - MUNDO INVERTIDO | STRANGER THINGS>
+
+
+
+*OBJETIVO: Criação de uma landing page sobre a série "Stranger Things", 
+utilizando de dois temas light/claro e dark/escuro simbolizando o "mundo normal" e o "mundo invertido" respectivamente.
+
+
+
+*COMPETÊNCIAS ABORDADAS: HTML, CSS e JavaScript.
+
+
+
+*HABILIDADES DESENVOLVIDAS:
+
+# HTML: 
+
+-> Semântica no HTML: dividindo o documento em header (cabeçalho), main (parte principal) e footer (rodapé) para melhor 
+organização do conteúdo;
+
+-> Definiçãos de ID's e Class's;
+
+-> Definição de Section's no main. Deliberando a função de cada section (invert-world, gallery, trailer and form);
+
+-> Acessibilidade no HTML: utilizando o atributo 'alt' para descrever o conteúdo nas imagens (boa prática de acessibilidade);
+
+-> Utilização da Tag 'iframe' para introduzir vídeo do youtube no documento HTML;
+OBS_01: o youtube tem a função de incorporar o vídeo, disponibilizando a tag completo para o documento HTML.
+
+-> Utilização do forms HTML;
+
+-> Adicionando audio ao documento por meio da tag 'audio' definindo os atributos: ID, src-link e autoplay para o audio iniciar automaticamente.
+
+
+# CSS:
+
+-> Importando fontes por meio da função '@import url';
+
+-> Criando e fazendo referência a uma variável no CSS;
+OBS_02: Dois tracinhos '--' faz referência a uma variável no CSS.
+
+-> Utilizando de porcentagem, ao invés de pixels, na altura e largura do decorrer do projeto;
+
+-> Fazendo referências as variáveis por meio do valor 'var()';
+
+-> Utilizando da propriedade 'transition' para determinar um tempo de animação no decorrer das ações do documento;
+
+-> Utilizando das propriedades 'position' e 'z-index' para definir a posição e sua ordem nos elementos;
+
+-> Aplicando pseudo-elementos a um seletor no CSS;
+OBS_03: os pseudo-elementos tem como objetivo pegar apenas uma parte especifica do elemento selecionado. Utiliza-se o seguimento
+de dois pontos '::' para a definição do pseudo-elemento;
+EX: 'main::before' / 'p::fist-line'.
+
+-> Utilizando do seletor 'transform' para aplicar o valor de rotação no elemento;
+EX: 'transform: rotateZ(180deg);' A declaração rotaciona o elemento em 180 graus.
+
+-> Utilizando do seletor 'filter' para aplicar um determinado filtro a uma imagem;
+EX: 'filter: saturate(0);' A declaração aplica o filtro de saturação com valor = 0, deixando a imagem em preto e branco.
+
+
+# JavaScript:
+
+-> Inserindo o código JS dentro do próprio documento HTMl (JavaScript interno);
+
+-> Atribuindo uma função ao clicar no botão "Inverter Mundos". 
+A função irá verificar qual tema da página está ativo (light ou dark), e em seguida irá retirar o tema e ativar o que estava desativo;
+
+-> Atribuindo comando para a utilização do audio na página HTML.
+Deliberando uma função para que o audio comece após o primeiro click da página, assim como mude de acordo com o tema (light / dark).
+
+
+
+*OBSERVAÇÕES DESCRITAS NO DECORRER DA ESTRURAÇÃO DO PROJETO:
+
+-Acessibilidade: O navegador usa algo chamado "árvore de acessibilidade" com o objetivo de ler a Tag e identificar a sua função;
+
+-Semântica: Quando a própria TAG já exeplifica a sua funcionalidade;
+
+Atributos: Role: modifica a "árvore de acessibilidade".
+
+
+
+*DIÁRIO PESSOAL:
+
+Muito feliz com o meu primeiro projeto individual de nível tão alto e com tantas competências, ainda mais referindo-se a uma série que eu gosto e sou extremamente ligado.
+Devo estudar o desenvolver do projeto, as habilidades desenvolvidas e como posso aplica-las em projetos futuros. Desejo continuar codando! :)
